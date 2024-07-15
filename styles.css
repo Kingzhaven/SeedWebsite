@@ -2,27 +2,34 @@ body {
   background-color: #b8b5b5;
   color: #000000;
 }
+
+body[data-bs-theme="light"] {
+  background-color: #fff;
+  color: #000;
+}
+
+body[data-bs-theme="dark"] {
+  background-color: #000;
+  color: #fff;
+}
+
 .navbar-brand img {
   max-height: 40px;
   margin-right: 10px;
 }
+
 .list-group-container {
-  margin-top: 200px;
+  margin-top: 20px;
 }
+
 .carousel-item img {
-  width: 50px;
-  height: 350px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
 }
 
-.navbar-light {
-  background-color: darkgray;
-}
-
-.contact-form {
-  background-color: #f8f9fa;
-  border-radius: 5px;
-  padding: 20px;
+.carousel-item .btn {
+  margin-top: 10px;
 }
 
 .form-control {
@@ -32,4 +39,56 @@ body {
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.col-md-2 {
+  padding: 10px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+body[data-bs-theme="dark"] .col-md-2 {
+  background-color: #000;
+  color: #fff;
+}
+
+body[data-bs-theme="light"] .col-md-2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.col-md-2:hover {
+  background-color: #e9ecef;
+}
+
+.mission-statement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mission-statement h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.mission-statement p {
+  font-size: 1.2em;
+}
+
+.carousel-container {
+  margin-top: 10px;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
+
+#footer {
+  text-align: right;
+  margin-right: 50px;
 }
