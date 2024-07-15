@@ -1,0 +1,35 @@
+body {
+  background-color: #b8b5b5;
+  color: #000000;
+}
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+.list-group-container {
+  margin-top: 200px;
+}
+.carousel-item img {
+  width: 50px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.navbar-light {
+  background-color: darkgray;
+}
+
+.contact-form {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-control {
+  border-color: #ced4da;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
