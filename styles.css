@@ -87,3 +87,42 @@ body[data-bs-theme="light"] .col-md-2 {
   text-align: right;
   margin-right: 50px;
 }
+
+body[data-bs-theme="dark"] {
+  background-color: #121212;
+  color: white;
+}
+
+body[data-bs-theme="dark"] .navbar {
+  background-color: #343a40 !important;
+}
+
+body[data-bs-theme="dark"] .navbar-brand img {
+  filter: invert(1);
+}
+
+body[data-bs-theme="dark"] .nav-link {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+body[data-bs-theme="dark"] .nav-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+body[data-bs-theme="dark"] .btn-outline-secondary {
+  color: white;
+  border-color: white;
+}
+
+body[data-bs-theme="dark"] .btn-outline-secondary:hover {
+  background-color: white;
+  color: black;
+}
+
+body[data-bs-theme="dark"] .badge.bg-danger {
+  background-color: #ff4444;
+}
+
+body[data-bs-theme="dark"] .carousel-indicators button {
+  background-color: white;
+}
