@@ -57,10 +57,6 @@ body[data-bs-theme="light"] .col-md-2 {
   color: #000;
 }
 
-.col-md-2:hover {
-  background-color: #e9ecef;
-}
-
 .mission-statement {
   display: flex;
   flex-direction: column;
@@ -71,12 +67,11 @@ body[data-bs-theme="light"] .col-md-2 {
 }
 
 .mission-statement h2 {
-  font-size: 1.5em;
   margin-bottom: 15px;
 }
 
 .mission-statement p {
-  font-size: 1.2em;
+  font-size: large;
 }
 
 .carousel-container {
